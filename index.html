@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoopConnect | Log In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.webp">
+
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <nav>
+            <div class="title">
+                <i class='bx bxs-basketball'></i>
+                <h1>HoopConnect</h1>
+            </div>
+            <ul>
+                <li><a href="#"><button id="aboutButton">About</button></a></li>
+                <li><a><button id="servicesButton">Services</button></a></li>
+                <li><a><button id="opinionsButton">Opinions</button></a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><button id="loginButton">Log In</button></a></li>
+                <li><a class="try">Try Free</a></li>
+            </ul>
+            <i class='bx bx-menu' id="icon"></i>
+        </nav>
+        <div class="hidden-menu" id="menu">
+            <ul>
+                <li><a href="#"><button id="aboutButtonHidden">About</button></a></li>
+                <li><a href="#"><button id="servicesButtonHidden">Services</button></a></li>
+                <li><a href="#"><button id="opinionsButtonHidden">Opinions</button></a></li>
+                <li><a href="#"><button id="loginButtonHidden">Log In</button></a></li>
+                <li><a href="#" class="try">Try Free</a></li>
+            </ul>
+        </div>
+
+        <div class="login-page" id="loginPage">
+            <form>
+                <h1>Login to HoopConnect</h1>
+                <div class="google-login">
+                    <img src="images/logo-google.webp">
+                    <p>Login with Google</p>
+                </div>
+                <div class="separator">
+                    <div class="line">.</div>
+                    <div class="text">or</div>
+                    <div class="line">.</div>
+                </div>
+                <label class="email">
+                    Your Email
+                    <input type="email" placeholder="Your Email" required>
+                </label>
+                <label class="email">
+                    Password
+                    <input type="password" placeholder="Password" required>
+                </label>
+                <label class="check">
+                    <input type="checkbox" checked>
+                    Remember me
+                </label>
+                <label class="check link">
+                    <input type="checkbox" required>
+                    I agree to the <a href="https://es.wikipedia.org/wiki/Mono">Terms of Service</a>
+                </label>
+                <div class="buttons">
+                    <button class="login" id="loginButtonForm">Login <i class='bx bx-right-arrow-alt'></i></button>
+                    <button class="create">Create Account</button>
+                </div>
+                <a href="#" class="forget">Forgot your password or cannot log in?</a>
+            </form>
+        </div>
+
+        <div class="about-page" id="aboutPage">
+            <div class="presentation">
+                <h2 class="first-titles">El juego empieza ahora</h2>
+                <p class="first-titles">Hoy en día, dependemos de amigos o compañeros de equipo para tener a alguien con quien jugar a baloncesto, pero <span class="hoopconnect">HoopConnect</span> ha llegado para cambiar esto. Puedes conocer a gente con el mismo hobby que tu, un deporte que une a miles de personas por el mundo, y ahora, lo vamos a hacer mucho más fácil.</p>
+            </div>
+            <div class="idea-de-negocio">
+                <h2>Nuestra idea de negocio</h2>
+                <p>Queriamos montar un negocio basado en una aplicación de baloncesto que ayude a los jugadores y jugadoras a conocer más su entorno ya conocer a más personas que compartan la pasión por este deporte.</p>
+                <p>En la lluvia de ideas que hicimos, todas las ideas que teníamos eran cosas parecidas a tinder, pero por ejemplo, un tinder para escoger películas ya existe, para escoger que comer también, entonces pensamos que en el ámbito deportivo no hay había aplicaciones así, y tuvimos la idea de añadirle más cosas.</p>
+            </div>
+            <div class="mision">
+                <div class="explicacion">
+                    <h1>Misión</h1>
+                    <p>Conectar a jugadores y jugadoras de baloncesto, facilitando su crecimiento personal y deportivo a través de una plataforma innovadora que promueve la interacción y la mejora continua.</p>
+                </div>
+                <div class="imagen">
+                    <img src="images/about1.webp">
+                </div>
+            </div>
+            <div class="vision">
+                <div class="imagen">
+                    <img src="images/about2.webp">
+                </div>
+                <div class="explicacion">
+                    <h1>Visión</h1>
+                    <p>Convertirnos en la aplicación líder que transforma la manera en que los jugadores de baloncesto se conectan, mejoran sus habilidades y construyen una comunidad global apasionada por este deporte.</p>
+                </div>
+            </div>
+            <div class="valores">
+                <div class="explicacion">
+                    <h1>Valores</h1>
+                    <ul>
+                        <li><strong>Pasión: </strong>Fomentamos el amor por el baloncesto.</li>
+                        <li><strong>Innovación: </strong>Ofrecemos funciones novedosas y útiles.</li>
+                        <li><strong>Conexión: </strong>Fortalecemos la comunidad de jugadores.</li>
+                        <li><strong>Crecimiento: </strong>Apoyamos el desarrollo continuo de los usuarios.</li>
+                        <li><strong>Accesibilidad: </strong>Brindamos recursos a todos los niveles.</li>
+                        <li><strong>Calidad: </strong>Mantenemos altos estándares y transparencia.</li>
+                    </ul>
+                </div>
+                <div class="imagen">
+                    <img src="images/about3.webp">
+                </div>
+            </div>
+            <div class="equipo">
+                <h2>Nuestro equipo</h2>
+                <div class="miembros">
+                    <div class="miembro">
+                        <img src="cv/pau.webp">
+                        <h3>Pau Medina</h3>
+                        <p>Diseñador y programador</p>
+                        <button class="cv"><a href="/cv/CV Pau Medina Vázquez.pdf" download="CV Pau Medina Vázquez.pdf">Descarga su CV</a></button>
+                    </div>
+                    <div class="miembro">
+                        <img src="cv/enric.webp">
+                        <h3>Enric Marquès</h3>
+                        <p>Director Marqueting y Finanzas</p>
+                        <button class="cv"><a href="/cv/CV Enric Marquès No.pdf" download="CV Enric Marquès No.pdf">Descarga su CV</a></button>
+                    </div>
+                    <div class="miembro">
+                        <img src="cv/borja.webp">
+                        <h3>Borja Lozano</h3>
+                        <p>CEO</p>
+                        <button class="cv"><a href="/cv/CV Borja Lozano Porcel.pdf" download="CV Borja Lozano Porcel.pdf">Descarga su CV</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-page" id="servicesPage">
+            <header>
+                <h2>Que ofrecemos?</h2>
+            </header>
+            <div class="blocks">
+                <div class="block">
+                    <i class='bx bx-male-female'></i>
+                    <div class="info">
+                        <h3 class="title">Conoce a gente</h3>
+                        <p class="info">Conoce a gente que comparta la pasión por el baloncesto.</p>
+                        <ul>
+                            <li class="tag">Socializa</li>
+                            <li class="tag">Juega</li>
+                            <li class="tag">Diviertete</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block">
+                    <i class='bx bx-diamond'></i>
+                    <div class="info">
+                        <h3 class="title">Entrena lo que te gusta</h3>
+                        <p class="info">Mejora tus hablidades en el deporte.</p>
+                        <ul>
+                            <li class="tag">Mejora</li>
+                            <li class="tag">Esfuerzate</li>
+                            <li class="tag">Entrena</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block">
+                    <i class='bx bx-navigation'></i>
+                    <div class="info">
+                        <h3 class="title">Descubre nuevas canchas</h3>
+                        <p class="info">Descubre nuevos sitios en los que jugar a baloncesto.</p>
+                        <ul>
+                            <li class="tag">Descubre</li>
+                            <li class="tag">Prueba</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block">
+                    <i class='bx bx-share bx-flip-horizontal'></i>
+                    <div class="info">
+                        <h3 class="title">Comparte tus estadísticas</h3>
+                        <p class="info">Comparte con todo el mundo tus puntos, triples, asistencias, etc.</p>
+                        <ul>
+                            <li class="tag">Comparte</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block">
+                    <i class='bx bxs-star-half'></i>
+                    <div class="info">
+                        <h3 class="title">Puntua las canchas</h3>
+                        <p class="info">Si las canchas están en mal estado, dilo, así lo podremos tener en cuenta.</p>
+                        <ul>
+                            <li class="tag">Ayuda</li>
+                            <li class="tag">Revisa</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block">
+                    <i class='bx bx-upvote'></i>
+                    <div class="info">
+                        <h3 class="title">Mejora tu técnica</h3>
+                        <p class="info">En nuestra app, hay cientos de videos que te pueden ayudar a mejorar.</p>
+                        <ul>
+                            <li class="tag">Mejora</li>
+                            <li class="tag">Entrena</li>
+                            <li class="tag">Técnica</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="app">
+                <div class="explain">
+                    <h3>Nuestra aplicación</h3>
+                    <p>Diseñada para jugadores de todos los niveles, nuestra plataforma te permite compartir tus estadísticas mientras encuentras a otros apasionados del baloncesto.</p>
+                    <p>Con dos partes principales, nuestra aplicación te ofrece:</p>
+                    <ol>
+                        <li>Un espacio para compartir tus datos personales, estadísticas, y videos de tus mejores jugadas.</li>
+                        <li>Una herramienta similar a Tinder que te ayuda a encontrar jugadores con intereses y habilidades similares a las tuyas.</li>
+                    </ol>
+                    <p>Además, descubre las pistas de baloncesto cercanas y lee opiniones y valoraciones de otros usuarios para encontrar los mejores lugares para jugar. Únete a nuestra comunidad global y lleva tu pasión por el baloncesto al siguiente nivel.</p>
+                </div>
+                <div class="images">
+                    <img class="one" src="images/app1.webp">
+                    <img class="two" src="images/app2.webp">
+                    <img class="three" src="images/app3.webp">
+                </div>
+            </div>
+            <div class="website">
+                <div class="explain">
+                    <h3>Nuestra web</h3>
+                    <p>Nuestra plataforma de baloncesto te permite acceder a tus estadísticas, logros y videos destacados en un solo lugar.</p>
+                    <p>Además, podrás descubrir pistas cercanas y leer opiniones y valoraciones de otros jugadores, ayudándote a encontrar los mejores lugares para jugar. Diseñada para mejorar tu experiencia en el baloncesto, nuestra aplicación es la herramienta perfecta para cualquier jugador que quiera seguir su progreso y mejorar constantemente.</p>
+                </div>
+                <img src="images/web1.webp">
+            </div>
+        </div>
+
+        <div class="opinions-page" id="opinionsPage">
+            <header>
+                <p>Al ser una empresa en crecimiento, unas de las cosas que más nos importan, son las opiniones de <span class="orange">nuestros usuarios</span></p>
+            </header>
+            <div class="opinions">
+                <h4>Algunas de nuestras opiniones en <span class="google">Google My Business <i class='bx bx-copyright'></i></span></h4>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/op1.webp">
+                        <h5>Marcos López Rueda</h5>
+                        <p>"Esta app ha cambiado mi vida. He conocido a mucha gente con mi misma pasión y mis habilidades han mejorado mucho gracias a los entrenamientos y estadísticas."</p>
+                        <p class="stars">★★★★★</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/op2.webp">
+                        <h5>Laura Martinez Rubio</h5>
+                        <p>"Me encanta esta app. He descubierto nuevas canchas y he hecho grandes amistades. La función de puntuar canchas es muy útil."</p>
+                        <p class="stars">★★★★★</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/op3.webp">
+                        <h5>Marcos López Rueda</h5>
+                        <p>"Esta app me ha ayudado a mejorar mi técnica y a retomar el baloncesto. Compartir estadísticas me motiva mucho. Solo desearía que la búsqueda de canchas fuera más rápida."</p>
+                        <p class="stars">★★★★<span class="transparent">★</span></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/op4.webp">
+                        <h5>Marcos López Rueda</h5>
+                        <p>"Fomenta un gran sentido de comunidad. He descubierto nuevas canchas y la app es fácil de usar. La función de puntuar canchas es excelente."</p>
+                        <p class="stars">★★★★<span class="transparent">★</span></p>
+                    </div>
+                </div>
+            </div>
+            <button>Puntúanos</button>
+        </div>
+
+        <footer>
+            <div class="links">
+                <ul>
+                    <li class="header">Company</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Cookies</li>
+                </ul>
+                <ul>
+                    <li class="header">Products</li>
+                    <li>HoopConnect</li>
+                    <li>Prices</li>
+                    <li>Help</li>
+                </ul>
+                <ul>
+                    <li class="header">Templates</li>
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                </ul>
+                <ul>
+                    <li class="header">Resources</li>
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                </ul>
+            </div>
+            <div class="rrss">
+                <ul>
+                    <li><i class='bx bxl-tiktok'></i></li>
+                    <li><i class='bx bxl-instagram'></i></li>
+                    <li><i class='bx bx-basketball'></i></li>
+                    <li><i class='bx bxl-twitter'></i></li>
+                    <li><i class='bx bxl-youtube'></i></li>
+                    <li><i class='bx bxl-github' id="github"></i></li>
+                </ul>
+            </div>
+            <div class="location">
+                <p>Carrer del Doctor Almera, 47 Sabadell</p>
+            </div>
+            <div class="copy">
+                <p>Copyrigth <i class='bx bx-copyright'></i> 2024 PauProg</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
